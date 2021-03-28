@@ -207,7 +207,7 @@ so the result of the function is $[2,2,2,3]$.
 The \key{sieve of Eratosthenes}
 %\footnote{Eratosthenes (c. 276 BC -- c. 194 BC) was a Greek mathematician.}
 is a preprocessing
-algorithm that builds an array using which we
+algorithm that builds an array which we
 can efficiently check if a given number between $2 \ldots n$
 is prime and, if it is not, find one prime factor of the number.
 
@@ -221,7 +221,7 @@ of its prime factors is $\texttt{sieve}[k]$.
 
 The algorithm iterates through the numbers
 $2 \ldots n$ one by one.
-Always when a new prime $x$ is found,
+When a new prime $x$ is found,
 the algorithm records that the multiples
 of $x$ ($2x,3x,4x,\ldots$) are not primes,
 because the number $x$ divides them.
